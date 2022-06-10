@@ -16,7 +16,7 @@ function addStudents(studentsArray, classroomArray){
     for(let i = 0; i < studentsArray.length; i++){
             classroomArray.push(studentsArray[i]);
             console.log(greeting + " " +classroomArray[i]);
-        }
+    }
 }
 
 //once students in classroom, greet the class
